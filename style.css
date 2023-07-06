@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300&display=swap');
+
+
+body {
+    background-color: #600204;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.produto1 {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 350px;
+    height: 550px;
+}
+.produto2 {
+    border-radius: 10px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 550px;
+}
+.produto3 {
+    border-radius: 10px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 550px;
+}
+
+img {
+    background-size: cover;
+    border-radius: 10px 0px 0px;
+    width: 350px;
+    height: 300px;
+}
+.Reserva{
+    position: relative;
+    left: 8%;
+    top: 38%;
+    width:  300px;
+    height: 25px;
+    background-color: beige;
+    border: none;
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+    border-radius: 10px;
+    
+}
+
+ h1 {
+    font-size: 18px;
+    color: white;
+ }
+
+ .botoes {
+   margin-top: 5px;
+   gap: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-family: 'Roboto Flex', sans-serif;
+   border: none;
+   
+ }
+
+ p {
+    color: white;
+ }
+ 
+ .Reserva:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-color: #730409;
+    color: white;
+ }
